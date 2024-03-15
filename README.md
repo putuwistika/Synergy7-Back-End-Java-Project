@@ -8,7 +8,8 @@
 
 <p align="center">
   <a href="#tentang">Tentang</a> •
-  <a href="#instalasi">Instalasi</a> •
+  <a href="#Kontak">Kontak</a> •
+  <a href="#instalasi">Instalasi</a>
 </p>
 
 ---
