@@ -8,10 +8,7 @@
 
 <p align="center">
   <a href="#tentang">Tentang</a> •
-  <a href="#fitur">Fitur</a> •
   <a href="#instalasi">Instalasi</a> •
-  <a href="#cara-penggunaan">Cara Penggunaan</a> •
-  <a href="#lisensi">Lisensi</a>
 </p>
 
 ---
@@ -21,14 +18,6 @@
 Repository ini memuat seluruh proyek challenge dalam kursus **SYNERGY ACADEMY x BINAR Batch 7**. Proyek ini bertujuan untuk menguji dan meningkatkan kemampuan para peserta dalam mengembangkan backend dengan menggunakan Java.
 
 Selama kursus ini, kami menyelesaikan berbagai tantangan yang tidak hanya meningkatkan keterampilan teknis kami dalam Java tetapi juga memperkuat pemahaman kami tentang konsep-konsep penting dalam pengembangan back-end.
-
-## Fitur
-
-- Implementasi berbagai pattern desain dalam Java
-- Penggunaan Spring Boot untuk pembuatan RESTful API
-- Pengelolaan database dengan Spring Data JPA
-- Autentikasi dan otorisasi dengan Spring Security
-- Unit dan integrasi testing
 
 ## Instalasi
 
