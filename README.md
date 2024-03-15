@@ -1,7 +1,7 @@
 <h1 align="center">Back End Java Challenge</h1>
 <p align="center"><i>SYNRGY Academy Batch 7</i></p>
 <p align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/id/2/2e/Java_Logo.svg" alt="Java Logo" width="200"/>
+  <img src="https://upload.wikimedia.org/wikipedia/id/2/2e/Java_Logo.svg" alt="Java Logo" width="100"/>
 </p>
 
 <h4 align="center">Author : I Putu Ferry Wistika</h4>
