@@ -6,7 +6,7 @@ import java.io.*;
 public class Main {
 
     static Scanner sc = new Scanner(System.in);
-    static List<String> foodItems = Arrays.asList("Nasi Goreng", "Mie Goreng", "Nasi + Ayam", "Es Teh Manis", "Es Jeruk");
+    static List<String> foodItems = Arrays.asList("Nasi Goreng Ayam", "Mie Goreng", "Nasi + Ayam", "Es Teh Manis", "Es Jeruk");
     static List<Integer> prices = Arrays.asList(15000, 13000, 18000, 3000, 5000);
     static List<Integer> orderQuantities = new ArrayList<>(Collections.nCopies(foodItems.size(), 0));
 
