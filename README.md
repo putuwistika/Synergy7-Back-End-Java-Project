@@ -24,5 +24,5 @@ Selama kursus ini, kami menyelesaikan berbagai tantangan yang tidak hanya mening
 Untuk memulai dengan proyek ini, clone repositori ini menggunakan Git:
 
 ```bash
-git clone https://github.com/yourusername/your-repository-name.git
+git clone [https://github.com/yourusername/your-repository-name.git](https://github.com/putuwistika/Synergy7-Back-End-Java-Project.git)https://github.com/putuwistika/Synergy7-Back-End-Java-Project.git
 cd your-repository-name
