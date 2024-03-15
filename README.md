@@ -19,6 +19,24 @@ Repository ini memuat seluruh proyek challenge dalam kursus **SYNERGY ACADEMY x 
 
 Selama course ini, saya menyelesaikan berbagai tantangan yang tidak hanya meningkatkan keterampilan teknis kami dalam Java tetapi juga memperkuat pemahaman kami tentang konsep-konsep penting dalam pengembangan back-end.
 
+## Kontak
+
+Jika Anda memiliki pertanyaan atau ingin terhubung, jangan ragu untuk menghubungi saya melalui salah satu platform berikut:
+
+<p align="left">
+  <a href="https://instagram.com/yourinstagram">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" width="40" height="40"/>
+  </a>
+  <a href="https://www.linkedin.com/in/yourlinkedin/">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn" width="40" height="40"/>
+  </a>
+  <a href="mailto:your.email@example.com">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Gmail_Icon.png" alt="Email" width="40" height="40"/>
+  </a>
+</p>
+
+
+
 ## Instalasi
 
 Untuk memulai dengan proyek ini, clone repositori ini menggunakan Git:
@@ -27,15 +45,4 @@ Untuk memulai dengan proyek ini, clone repositori ini menggunakan Git:
 git clone https://github.com/putuwistika/Synergy7-Back-End-Java-Project.git
 cd Synergy7-Back-End-Java-Project
 
-## Kontak
-
-Jika Anda memiliki pertanyaan atau ingin terhubung, jangan ragu untuk menghubungi saya melalui salah satu platform berikut:
-
-- Instagram: [@ferrywistika](https://www.instagram.com/ferrywistika/)
-- LinkedIn: [Your LinkedIn](https://www.linkedin.com/in/yourlinkedin/)
-- Email: [your.email@example.com](mailto:your.email@example.com)
-
----
-
-Terima kasih telah mengunjungi repositori ini. Jangan lupa untuk mengikuti dan memberikan bintang jika Anda menemukan proyek ini menarik dan berguna!
 
