@@ -35,7 +35,7 @@ public class Main {
             switch (choice) {
                 case 0:
                     System.out.println("Terima kasih telah menggunakan BinarFud!");
-                    return; // Exit the application
+                    return; // Keluar
                 case 99:
                     confirmAndPay();
                     break;
