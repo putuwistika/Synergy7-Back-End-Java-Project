@@ -1,0 +1,16 @@
+BinarFud
+========================
+Terima kasih sudah memesan di BinarFud
+Di bawah ini adalah pesanan anda
+========================
+Makanan                   Qty        Total
+-------------------------------------------------
+Nasi Goreng Ayam          22         Rp330.000
+Mie Goreng                33         Rp429.000
+Nasi + Ayam               22         Rp396.000
+-------------------------------------------------
+Total                     77         Rp1.155.000
+Pembayaran : BinarCash
+========================
+Simpan struk ini sebagai bukti pembayaran
+========================
