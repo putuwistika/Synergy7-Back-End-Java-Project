@@ -16,15 +16,15 @@ public class foodItem {
     public foodItem(String name, int price) {
         this.name = name;
         this.price = price;
-        this.quantity = 0;
     }
 
     public int getTotalPrice() {
         return this.quantity * this.price;
     }
 
-    // Tambahkan jumlah pesanan makanan
     public void addQuantity(int quantityToAdd) {
         this.quantity += quantityToAdd;
     }
+
+
 }
