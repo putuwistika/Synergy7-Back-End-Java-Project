@@ -24,6 +24,8 @@ public class OrderController {
         foodItems.add(new foodItem("Nasi + Ayam", 18000));
         foodItems.add(new foodItem("Es Teh Manis", 3000));
         foodItems.add(new foodItem("Es Jeruk", 5000));
+        foodItems.add(new foodItem("Air Mineral", 5000));
+        foodItems.add(new foodItem("Ayam Betutu", 90000));
     }
 
     public void startOrderProcess() {
