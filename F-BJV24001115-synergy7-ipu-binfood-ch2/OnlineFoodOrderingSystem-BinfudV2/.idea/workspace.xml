@@ -5,15 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f294c491-4bc6-455b-b9df-d49f30796da1" name="Changes" comment="V2(Fitur Baru Tambah dan Kurangi pesanan)">
-      <change afterPath="$PROJECT_DIR$/BinarFud_Receipt_29032024_232332_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Controller/handlePayment.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/copilot/chatSessions/00000000000.xd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/copilot/chatSessions/00000000000.xd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/copilot/chatSessions/xd.lck" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/copilot/chatSessions/xd.lck" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BinarFud_Receipt_29032024_1.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Controller/OrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Model/foodItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Model/foodItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/View/ConsoleView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/View/ConsoleView.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +70,8 @@
       <workItem from="1711719574967" duration="409000" />
       <workItem from="1711720104417" duration="1058000" />
       <workItem from="1711726568533" duration="2683000" />
-      <workItem from="1711729257626" duration="318000" />
+      <workItem from="1711729257626" duration="871000" />
+      <workItem from="1711730536550" duration="602000" />
     </task>
     <task id="LOCAL-00001" summary="V1.2 Chapter 2">
       <option name="closed" value="true" />
@@ -93,7 +89,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711720272389</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="V2(Fitur Baru Tambah dan Kurangi pesanan)">
+      <option name="closed" value="true" />
+      <created>1711729669234</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1711729669234</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
