@@ -4,14 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f294c491-4bc6-455b-b9df-d49f30796da1" name="Changes" comment="V1.2 Chapter 2">
+    <list default="true" id="f294c491-4bc6-455b-b9df-d49f30796da1" name="Changes" comment="V2(Fitur Baru Tambah dan Kurangi pesanan)">
+      <change afterPath="$PROJECT_DIR$/BinarFud_Receipt_29032024_232332_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Controller/handlePayment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/copilot/chatSessions/00000000000.xd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/copilot/chatSessions/00000000000.xd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/copilot/chatSessions/xd.lck" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/copilot/chatSessions/xd.lck" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BinarFud_Receipt_29032024_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Controller/OrderController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Model/foodItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Model/foodItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/View/ConsoleView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/View/ConsoleView.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
@@ -24,23 +38,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "development",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/putuwistika/Documents/3.SYNERGY ACADEMY BCA/0.Challenge/0.DEPLOY-GITHUB/F-BJV24001115-synergy7-ipu-binfood-ch2/OnlineFoodOrderingSystem-BinfudV2",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;development&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/putuwistika/Documents/3.SYNERGY ACADEMY BCA/0.Challenge/0.DEPLOY-GITHUB/F-BJV24001115-synergy7-ipu-binfood-ch2/OnlineFoodOrderingSystem-BinfudV2&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-322ed176" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -52,6 +73,9 @@
       <workItem from="1711716091905" duration="68000" />
       <workItem from="1711719336352" duration="108000" />
       <workItem from="1711719574967" duration="409000" />
+      <workItem from="1711720104417" duration="1058000" />
+      <workItem from="1711726568533" duration="2683000" />
+      <workItem from="1711729257626" duration="318000" />
     </task>
     <task id="LOCAL-00001" summary="V1.2 Chapter 2">
       <option name="closed" value="true" />
@@ -61,7 +85,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711719730874</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="V1.3 (Error Handling Sahaja)">
+      <option name="closed" value="true" />
+      <created>1711720272389</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1711720272389</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -69,6 +101,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="V1.2 Chapter 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="V1.2 Chapter 2" />
+    <MESSAGE value="V1.3 (Error Handling Sahaja)" />
+    <MESSAGE value="V2(Fitur Baru Tambah dan Kurangi pesanan)" />
+    <option name="LAST_COMMIT_MESSAGE" value="V2(Fitur Baru Tambah dan Kurangi pesanan)" />
   </component>
 </project>

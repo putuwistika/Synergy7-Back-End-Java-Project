@@ -6,7 +6,6 @@ import java.util.List;
 import java.util.Scanner;
 
 public class ConsoleView {
-
     private final Scanner scanner = new Scanner(System.in);
 
     public void displayWelcomeMessage() {
@@ -22,7 +21,7 @@ public class ConsoleView {
         System.out.println("-----------------------------------------------------");
         for (int i = 0; i < foodItems.size(); i++) {
             foodItem item = foodItems.get(i);
-            System.out.printf("%-3d %-25s Rp%,d\n", i + 1, item.getName(), item.getPrice());
+            System.out.printf("%-3d %-25s Rp%d\n", i + 1, item.getName(), item.getPrice());
         }
         System.out.println("-----------------------------------------------------");
         System.out.println("99. Pesan dan Bayar");
@@ -40,7 +39,7 @@ public class ConsoleView {
     }
 
     public void displayOrderPrompt(foodItem item) {
-        System.out.printf("Berapa pesanan anda untuk %s (harga: Rp%,d)?\n", item.getName(), item.getPrice());
+        System.out.printf("Berapa pesanan anda untuk %s (harga: Rp%d)?\n", item.getName(), item.getPrice());
         System.out.print("qty => ");
     }
 
@@ -68,8 +67,55 @@ public class ConsoleView {
         System.out.println("===================================================");
     }
 
-    // Membuat baris kosong sebagai pemisah sesi
     public void displaySectionBreak() {
         System.out.println("\n\n");
+    }
+
+    public void displayPaymentConfirmation(List<foodItem> foodItems, int total) {
+        System.out.println("Konfirmasi Pembayaran");
+        System.out.println("-----------------------------------------------------");
+        for (foodItem item : foodItems) {
+            if (item.getQuantity() > 0) {
+                System.out.printf("%-25s %d x Rp%d = Rp%d\n", item.getName(), item.getQuantity(), item.getPrice(), item.getTotalPrice());
+            }
+        }
+        System.out.println("-----------------------------------------------------");
+        System.out.printf("Total: Rp%,d\n", total);
+        System.out.println("\n1. Tambah Pesanan");
+        System.out.println("2. Batal Pesanan Tertentu");
+        System.out.println("3. Batal Semua Pesanan");
+        System.out.println("4. Bayar");
+    }
+
+    public int getPaymentConfirmationAction() {
+        System.out.print("Pilih aksi (1-4): ");
+        try {
+            return Integer.parseInt(scanner.nextLine());
+        } catch (NumberFormatException e) {
+            displayError("Masukkan pilihan berupa angka.");
+            return -1;
+        }
+    }
+
+    public void displayCancelableItems(List<foodItem> foodItems) {
+        System.out.println("Item yang dapat dibatalkan:");
+        System.out.println("-----------------------------------------------------");
+        for (int i = 0; i < foodItems.size(); i++) {
+            foodItem item = foodItems.get(i);
+            if (item.getQuantity() > 0) {
+                System.out.printf("%d. %s (qty: %d)\n", i + 1, item.getName(), item.getQuantity());
+            }
+        }
+        System.out.println("-----------------------------------------------------");
+        System.out.print("Masukkan nomor menu yang ingin dibatalkan: ");
+    }
+
+    public int getCancelItemChoice() {
+        try {
+            return Integer.parseInt(scanner.nextLine());
+        } catch (NumberFormatException e) {
+            displayError("Masukkan pilihan berupa angka.");
+            return -1;
+        }
     }
 }
