@@ -11,8 +11,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class OrderController {
-    private List<foodItem> foodItems;
-    private ConsoleView view;
+    private final List<foodItem> foodItems;
+    private final ConsoleView view;
     private int receiptNumber = 0; // Variabel untuk nomor struk
 
     public OrderController(ConsoleView view) {

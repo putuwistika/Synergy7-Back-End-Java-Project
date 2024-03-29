@@ -1,6 +1,4 @@
 package org.example.Model;
-
-
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
